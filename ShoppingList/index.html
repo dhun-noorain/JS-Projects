@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping List</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+<body>
+<!-- header -->
+<header id="header" class="bg-dark text-light py-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 mx-auto">
+        <h1>Shopping List</h1>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- main -->
+<main id="main">
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-8 mx-auto">
+        <form id="addForm">
+          <div class="form-group">
+            <input type="text" placeholder="Add Item" id="inputField" class="form-control">
+            <button type="submit" class="btn btn-outline-success mt-3 d-block ml-auto" id="addBtn">
+              Add To List
+            </button>
+          </div>
+        </form>
+
+        <p class="text-info font-weight-bold" id="msg"></p>
+        <ul class="list-group">
+        </ul>
+      </div>
+    </div>
+  </div>
+</main>
+
+
+<script src="./js/action.js"></script>
+</body>
+</html>
